@@ -1,0 +1,1 @@
+import pyinstaller\n\n# Build script for generating Sorty.exe from main.py\ndef main():\n    pyinstaller_cmd = 'pyinstaller --onefile main.py'\n    os.system(pyinstaller_cmd)\n\nif __name__ == '__main__':\n    main()
